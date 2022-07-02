@@ -1,0 +1,139 @@
+body{
+    background-image: url(images/back.png);
+    background-repeat: repeat;
+    
+    }
+h6{
+    font-size: 30px;
+    color:red;
+    }
+
+ul{
+  list-style-type: none;
+  margin-bottom: 0px;
+  overflow: hidden;
+  background-color: #333;
+  }
+.block1{
+    padding-left: 30px;
+    padding-right: 30px;
+       }
+h4{
+    align-content: center;
+    text-align: center;
+    font-family: cursive;
+    color: white;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+li{
+  float: right;
+  }
+
+li:last-child {
+  border-right: none;
+              }
+
+li a {
+    float: right;
+    display: block;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 44px 46px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    text-decoration: none;
+     }
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color:dimgray;
+        }
+.content{
+    height:90%;
+    width:100%;
+    overflow: hidden;
+    box-shadow: 1px 1px 15px rgba(0,0,0,0.4);
+}
+.content .images{
+  height: 100%;
+  width: 100%;
+}
+h2{
+  text-align: justify;
+  text-justify: inter-word;
+  }
+.images img{
+  height: 50%;
+  width: 100%;
+  filter:brightness(50%);
+}
+.centered {
+    font-size: 70px;
+    font-family:cursive;
+    font-weight: 300;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+}
+.centered h1{
+    font-size: 40px;
+    font-weight: 100;
+    font-family:cursive;
+    color:white;
+}
+.table table{
+    text-align: center;
+    align-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h5{
+    text-align: center;
+    align-content: center;
+    font-size: 20px;
+}
+.table table img{
+     box-shadow: 1px 1px 15px rgba(0,0,0,0.4);
+}
+.footer table{
+    padding-left: 0px;
+    text-align: center;
+    align-content: center;
+}
+.footer table body{
+    background-color: black;
+}
+h3{
+    font-size: 40px;
+    color:red;
+    text-align: center;
+    align-content:center;
+
+}
+form{
+    font-size: 30px;
+    background-color: dimgray;
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    padding: 40px;
+    
+}
+button{
+  font-size: 20px;   
+}
+input{
+    font-size: 20px;
+}
